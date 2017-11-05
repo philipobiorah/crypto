@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/spinner_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/aud"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp">
+
+        <TextView
+            android:id="@+id/spinner_code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="USD"
+            android:textStyle="bold"
+            android:gravity="bottom"/>
+        <TextView
+            android:id="@+id/spinner_country"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Australian Dollar"
+            android:textStyle="bold"
+            android:gravity="top"/>
+
+    </LinearLayout>
+
+</LinearLayout>
